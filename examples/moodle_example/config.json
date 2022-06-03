@@ -1,0 +1,23 @@
+{
+  "dialog_folder": "./21-22/spring22",
+  "matchers": [
+    {
+      "regex": ".*",
+      "name": "hash_storage"
+    },
+    {
+      "regex": ".*",
+      "name": "eval_js",
+      "options": {
+        "js_loc": "folder_organizer/moodle_matcher.js"
+      }
+    },
+    {
+      "regex": ".*",
+      "name": "user_selection",
+      "options": null
+    }
+  ],
+  "store_hash_location_map": true,
+  "verify_new_loc": true
+}
